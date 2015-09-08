@@ -1,0 +1,10 @@
+info:
+  app:
+    name: ${project.name}
+    version: ${project.version}
+spring:
+  datasource:
+    url: jdbc:h2:file:~/testdb
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
