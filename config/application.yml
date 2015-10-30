@@ -1,0 +1,3 @@
+## just select your stage here:
+## "dev" will trigger using "application-dev.(yml|properties)"
+spring.profiles.active: dev

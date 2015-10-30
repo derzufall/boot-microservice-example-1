@@ -5,12 +5,15 @@
       xmlns:h="http://java.sun.com/jsf/html"
       xmlns:f="http://java.sun.com/jsf/core"
       xmlns:p="http://primefaces.org/ui">
+
     <h:head>
-        <h:outputStylesheet library="css" name="styles.css"/>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-        <title>Hello</title>	
+        <title>Hello World</title>
+        <h:outputScript library="js" name="jsfcrud.js"/>
+        <h:outputStylesheet library="css" name="jsfcrud.css"/>
+        <h:outputScript library="js" name="galleria.js"/>
+        <meta http-equiv="refresh" content="#{session.maxInactiveInterval}" />
     </h:head>
+    
     <h:body>
         <h:form>
             <p:panel header="What do you see here?">
@@ -21,7 +24,7 @@
             <p:panel header="JSF 2.2 Bean Access">
                 <h:outputLabel value="#{helloWorldBean.hello()}" />
             </p:panel>
-            <p:button />
+            <p:button value="Klick me"/>
         </h:form>
     </h:body>
 </html>

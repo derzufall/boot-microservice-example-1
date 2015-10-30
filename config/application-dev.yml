@@ -1,0 +1,17 @@
+## 
+
+#spring.datasource.url: jdbc:mysql://host/database
+#spring.datasource.username: username
+#spring.datasource.password: password
+
+server.port: 8080
+server.tomcat.accessLogEnabled: true
+
+#logging.config: config/logback-dev.xml
+#(TRACE, DEBUG, INFO, WARN, ERROR, FATAL, OFF)
+#logging.file: target/logs/application_log
+#logging.level.ROOT: INFO
+#logging.level.org.apache.http: INFO
+#logging.level.org.apache.http.headers: INFO
+#logging.level.org.springframework.web: DEBUG
+#logging.level.org.hibernate: ERROR

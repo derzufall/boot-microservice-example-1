@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Scope;
 
 
 @javax.inject.Named("helloWorldBean") // like Spring's @Component
-@Scope(value = "session")//javax.enterprise.context.SessionScoped
+@Scope(value = "session") // like javax.enterprise.context.SessionScoped
 public class HelloWorldBean {
     
     private double r;
