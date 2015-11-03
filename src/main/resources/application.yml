@@ -4,7 +4,7 @@
 ############################################
 server:
   port: 8080
-  #contextPath: /reports
+  #contextPath: /example
   tomcat:
     # Write access log to target/logs/access_log.YYYY-MM-DD.log
     # See http://tomcat.apache.org/tomcat-7.0-doc/api/org/apache/catalina/valves/AccessLogValve.html
